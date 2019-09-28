@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Comfortaa&display=swap');
+body {
+    padding: 20px;
+    margin: 0;
+    font-family: 'Amatic SC', cursive;
+    background-color: #1C3F58;
+}
+
+.container {
+    width: 74%;
+    margin: 0 auto;
+}
+
+.teste {
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    width: 100%;
+    height: 100vh;
+}
+
+.hide {
+    display: none;
+}
+
+h1 {
+    padding: 0;
+    margin: 0;
+    color: #DF8D15;
+    font-size: 5rem;
+    text-align: center;
+}
+
+h3 {
+    padding: 0;
+    margin: 0;
+    color: #DF8D15;
+    font-size: 3rem;
+    text-align: center;
+}
+
+.menu-wrapper {
+    margin-top: 2rem;
+}
+
+ul.menu {
+    width: 74%;
+    margin: 0 auto;
+    list-style-type: none;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333333;
+}
+
+ul.menu li {
+    float: left;
+}
+
+ul.menu li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding-left: 50px;
+    text-decoration: none;
+    padding-right: 52.7px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    font-size: 1.3rem;
+    font-family: 'Comfortaa', cursive;
+}
+
+ul.menu li a:hover {
+    background-color: #DF8D15;
+}
+
+p {
+    font-family: 'Comfortaa', cursive;
+    font-size: 1.1rem;
+    color: white;
+    line-height: 2rem;
+    margin-bottom: 1rem;
+}
+
+p strong {
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+h6 {
+    font-family: 'Amatic SC', cursive;
+    font-size: 2rem;
+    color: white;
+    margin: 0;
+}
+
+h6.center {
+    text-align: center;
+}
+
+ul.list {
+    color: white;
+    font-family: 'Comfortaa', cursive;
+}
+
+ul.list li {
+    line-height: 1.5rem;
+}
+
+a {
+    color: white;
+}
+
+input {
+    margin: 0;
+    height: 1.5rem;
+    padding-left: 0.5rem;
+}
+
+button {
+    border: none;
+    background-color: #DF8D15;
+    color: white;
+    font-family: 'Comfortaa', cursive;
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    padding: 0.6rem;
+}
+
+#historia {
+    margin-top: 2rem;
+}
+
+img {
+    width: 100%;
+    margin-top: 2rem;
+}
