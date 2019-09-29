@@ -5,11 +5,16 @@ var cors = require('cors');
 const bodyParser = require('body-parser');
 const logger = require('morgan');
 const Data = require('./data');
-
+const path = require('path');
+const port = process.env.PORT || 3000
 const API_PORT = 3001;
 const app = express();
 app.use(cors());
 const router = express.Router();
+
+app.use(express.static(__dirname))
+app.use(express.static(path.join(__dirname, 'build')))
+
 
 // this is our MongoDB database
 const dbRoute =
@@ -86,3 +91,8 @@ app.use('/api', router);
 
 // launch our backend into a port
 app.listen(API_PORT, () => console.log(`LISTENING ON PORT ${API_PORT}`));
+
+app.get('/', function (req, res) {
+  res.sendFile(path.join(__dirname, 'build', 'index.html'))
+})
+app.listen(port)
