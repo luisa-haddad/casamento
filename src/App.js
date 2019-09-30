@@ -140,7 +140,7 @@ class App extends Component {
             <div className="text">
               <h6>Onde devo ir ???</h6>
               
-              <p>Para Juquitiba, fica uns 76 Km de SP.<br/><a href="https://waze.com/ul?q=Estrada%20Martha%20Maria%20de%20Jesus,%209500">Estrada Martha Maria de Jesus, 9500</a></p>
+              <p>Para Juquitiba, fica uns 76 Km de SP.<br/><a href="https://waze.com/ul?q=Estr.%20Martha%20Maria%20de%20Jesus,%209500">Estrada Martha Maria de Jesus, 9500</a></p>
             </div>
           </div>
           <div id="levar" className="container">
