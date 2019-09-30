@@ -121,7 +121,7 @@ class App extends Component {
             <div className="image"></div>
             <div className="text">
               <h6>Precisa confirmar ??? SIM!!!</h6>
-              <p>Por favor confirmem a sua presença até <strong>01/10</strong> preenchendo os campos abaixo. Assim que vocês confirmarem o seu nome lindo aparecerá na lista de presença no final dessa página.</p>
+              <p>Por favor confirmem a sua presença até <strong>02/10</strong> preenchendo os campos abaixo. Assim que vocês confirmarem o seu nome lindo aparecerá na lista de presença no final dessa página.</p>
               <div>
                 <input
                   type="text"
@@ -161,7 +161,7 @@ class App extends Component {
           <div>
             <h6 className="center">Beijos, amamos vocês</h6>
           </div>
-          <div>
+          <div className="foto">
             <img alt="le e lu" src="lelu.jpeg" />
           </div>
 

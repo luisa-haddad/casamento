@@ -131,7 +131,20 @@ button {
     margin-top: 2rem;
 }
 
+.foto {
+    text-align: center;
+}
+
 img {
     width: 100%;
+    max-width: 60rem;
     margin-top: 2rem;
+}
+
+#historia,
+#confirmar,
+#onde,
+#levar,
+#rsvp {
+    margin-bottom: 3rem;
 }
