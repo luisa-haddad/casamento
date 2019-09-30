@@ -1,4 +1,3 @@
-
 const mongoose = require('mongoose');
 const express = require('express');
 var cors = require('cors');
@@ -13,7 +12,7 @@ app.use(cors());
 const router = express.Router();
 
 app.use(express.static(__dirname))
-app.use(express.static(path.join(__dirname, 'build')))
+app.use(express.static('build'))
 
 
 // this is our MongoDB database
@@ -93,6 +92,6 @@ app.use('/api', router);
 app.listen(API_PORT, () => console.log(`LISTENING ON PORT ${API_PORT}`));
 
 app.get('/', function (req, res) {
-  res.sendFile(path.join(__dirname, 'build', 'index.html'))
+  res.sendFile(path.join('build', 'index.html'))
 })
 app.listen(port)
