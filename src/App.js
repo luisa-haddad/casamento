@@ -109,7 +109,7 @@ class App extends Component {
       <React.Fragment>
         <div className="teste">
           <h1>19/10/2019</h1>
-          <h3>Festa de comemoração do casamento da Lê e da Lu </h3>
+          <h3>Festa de comemoração do casamento da<br/>Lê e da Lu </h3>
           <div id="historia" className="container">
             <div className="image"></div>
             <div className="text">
